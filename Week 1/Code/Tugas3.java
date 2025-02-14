@@ -56,7 +56,6 @@ public class Tugas3 {
                     break;
                 case 5:
                     System.out.println("Program selesai.");
-                    sc.close();
                     return;
             }
         }
@@ -72,37 +71,45 @@ public class Tugas3 {
 
     public static void tampilkanJadwalHari(String[] namaMk, int[] sks, int[] semester, String[] hari, String hariCari) {
         System.out.println("================================");
+        boolean ditemukan = false;
         for (int i = 0; i < namaMk.length; i++) {
             if (hari[i].equals(hariCari)) {
                 System.out.println("Mata kuliah: " + namaMk[i] + ", SKS: " + sks[i] + ", Semester: " + semester[i] + ", Hari: " + hari[i]);
-            } else {
-                System.out.println("Mata kuliah tidak ditemukan");
+                ditemukan = true;
             }
+        }
+        if (!ditemukan) {
+            System.out.println("Mata kuliah tidak ditemukan");
         }
         System.out.println("================================");
     }
 
     public static void tampilkanJadwalSemester(String[] namaMk, int[] sks, int[] semester, String[] hari, int semesterCari) {
         System.out.println("================================");
+        boolean ditemukan = false;
         for (int i = 0; i < namaMk.length; i++) {
             if (semester[i] == semesterCari) {
                 System.out.println("Mata kuliah: " + namaMk[i] + ", SKS: " + sks[i] + ", Semester: " + semester[i] + ", Hari: " + hari[i]);
-            } else {
-                System.out.println("Mata kuliah tidak ditemukan");
-            }
+                ditemukan = true;
+            } 
+        }
+        if (!ditemukan) {
+            System.out.println("Mata kuliah tidak ditemukan");
         }
         System.out.println("================================");
     }
 
     public static void cariMataKuliah(String[] namaMk, int[] sks, int[] semester, String[] hari, String namaCari) {
         System.out.println("================================");
+        boolean ditemukan = false;
         for (int i = 0; i < namaMk.length; i++) {
             if (namaMk[i].equals(namaCari)) {
                 System.out.println("Mata kuliah: " + namaMk[i] + ", SKS: " + sks[i] + ", Semester: " + semester[i] + ", Hari: " + hari[i]);
-                return;
-            } else {
-                System.out.println("Mata kuliah tidak ditemukan");
+                ditemukan = true;
             }
+        }
+        if (!ditemukan) {
+            System.out.println("Mata kuliah tidak ditemukan");
         }
         System.out.println("================================");
     }
