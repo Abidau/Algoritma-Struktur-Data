@@ -56,6 +56,7 @@ public class Tugas3 {
                     break;
                 case 5:
                     System.out.println("Program selesai.");
+                    sc.close();
                     return;
             }
         }
