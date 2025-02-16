@@ -115,6 +115,8 @@ Hasil Kode Program Pada Tugas Nomer 3
 
 ![Screenshot](img/Tugas33.png)
 
+![Screenshot](img/Tugas34.png)
+
 Langkah-Langkah Kode Pemograman saya :
 1. Program meminta pengguna untuk memasukkan jumlah mata kuliah yang akan dimasukkan. Untuk setiap mata kuliah, pengguna diminta mengisi nama mata kuliah, jumlah SKS, semester, dan hari kuliah. Data ini disimpan dalam array namaMk, sks, semester, dan hari.
 2. Program menampilkan menu berisi lima pilihan:
