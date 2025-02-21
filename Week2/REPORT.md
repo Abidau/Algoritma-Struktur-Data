@@ -39,7 +39,9 @@ Hasil Kode Program
     - nilaiKinerja(ipk: double): String
     - (Konstruktor default dan konstruktor berparameter juga dapat dianggap sebagai method, tetapi biasanya tidak dihitung dalam konteks ini.)
 
-4. ![Screenshot](img/P2.png)
+4. Jawaban
+
+![Screenshot](img/P2.png)
 
 5. Jawaban 
 
