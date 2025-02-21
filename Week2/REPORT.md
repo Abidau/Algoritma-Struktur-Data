@@ -39,7 +39,7 @@ Hasil Kode Program
     - nilaiKinerja(ipk: double): String
     - (Konstruktor default dan konstruktor berparameter juga dapat dianggap sebagai method, tetapi biasanya tidak dihitung dalam konteks ini.)
 
-4. ss aja
+4. ![Screenshot](img/P2.png)
 
 5. Jawaban 
 
@@ -73,7 +73,7 @@ Hasil Kode Program
 
 Hasil Kode Program
 
-[Screenshot](img/P2.png)
+![Screenshot](img/P3.png)
 
 ### 2.2.3 Pertanyaan
 
@@ -109,7 +109,7 @@ Nama Objek yang Dihasilkan
 
 Hasil Kode Program
 
-[Screenshot]
+![Screenshot](img/P4.png)
 
 ### 2.3.3 Pertanyaan
 
@@ -151,10 +151,10 @@ Hasil Kode Program
 
 ## 2.4 Latihan Praktikum
 
-Hasil Kode Program dari DosenMain
+Hasil Kode Program dari Latihan Praktikum Matakuliah
 
-[Screenshot]
+![Screenshot](img/P5.png)
 
-Hasil kode program dari MataKuliahMain
+Hasil kode program dari Latihan Praktikum Dosen 
 
-[Screenshot]
+![Screenshot](img/P6.png)
