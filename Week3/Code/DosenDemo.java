@@ -1,9 +1,11 @@
 package Week3.Code;
 import java.util.Scanner;
+
 public class DosenDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Dosen[] arrayOfDosen = new Dosen[3];
+        DataDosen dataDosen = new DataDosen();
 
         for (int i = 0; i < 3; i++) {
             arrayOfDosen[i] = new Dosen();
@@ -22,14 +24,13 @@ public class DosenDemo {
             System.out.println("------------------------");
         }
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Data Dosen ke-" + (i + 1));
-            System.out.println("Kode            : " + arrayOfDosen[i].kode);
-            System.out.println("Nama            : " + arrayOfDosen[i].nama);
-            System.out.println("Jenis Kelamin   : " + (arrayOfDosen[i].jenisKelamin ? "Pria" : "Wanita"));
-            System.out.println("Usia            : " + arrayOfDosen[i].usia);
-            System.out.println("------------------------");
-        }
+        dataDosen.dataSemuaDosen(arrayOfDosen);
+        dataDosen.jumlahDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
+        dataDosen.infoDosenPalingTua(arrayOfDosen);
+        dataDosen.infoDosenPalingMuda(arrayOfDosen);
+
         sc.close();
     }
 }
+
