@@ -15,13 +15,13 @@ Hasil Kode Program
 
 ### 3.2.3 Pertanyaan
 
-1. Tidak harus. Sebuah class bisa saja hanya memiliki atribut tanpa method, atau hanya memiliki method tanpa atribut. biasanya class yang dibuat untuk array of objects memiliki atribut untuk menyimpan data dan method untuk melakukan sesuatu dengan data tersebut. Atribut membantu kita menyimpan informasi, sedangkan method membantu kita mengolah atau menampilkan informasi itu.
+1. Tidak harus. Sebuah class bisa saja hanya memiliki atribut tanpa method, atau hanya memiliki method tanpa atribut. biasanya class yang dibuat untuk array of objects memiliki atribut untuk menyimpan data dan method untuk melakukan sesuatu dengan data tersebut. Atribut membantu menyimpan informasi, sedangkan method membantu mengolah atau menampilkan informasi itu.
 
-2. kode ini akan membuat objek dari class yang sudah kita buat, mengisi data ke dalam objek tersebut, dan dapat menampilkan informasi ke layar. Kode ini biasanya digunakan untuk menunjukkan bagaimana cara menggunakan array of objects.
+2. kode ini akan membuat objek dari class yang sudah dibuat, mengisi data ke dalam objek tersebut, dan dapat menampilkan informasi ke layar. Kode ini biasanya digunakan untuk menunjukkan bagaimana cara menggunakan array of objects.
 
-3. Jika class Mahasiswa tidak memiliki konstruktor yang kita buat sendiri, Java secara otomatis memberikan konstruktor default yang tidak memerlukan parameter. Jadi, kita bisa memanggil konstruktor ini tanpa masalah. Jika ada konstruktor yang kita buat dengan parameter, kita harus memanggilnya dengan memberikan nilai yang sesuai.
+3. Jika class Mahasiswa tidak memiliki konstruktor yang dibuat sendiri, Java secara otomatis memberikan konstruktor default yang tidak memerlukan parameter. Jadi, bisa memanggil konstruktor ini tanpa masalah. Jika ada konstruktor yang dibuat dengan parameter, harus memanggilnya dengan memberikan nilai yang sesuai.
 
-4. Kode program ini membuat sebuah array yang berisi tiga objek dari class Mahasiswa. Setiap objek diisi dengan informasi seperti NIM, nama, kelas, dan IPK. Setelah semua data diisi, program ini mencetak informasi masing-masing mahasiswa ke layar dengan format yang rapi. Jadi, kita bisa melihat detail dari setiap mahasiswa, seperti NIM, nama, kelas, dan IPK mereka, dengan pemisah garis di antara setiap mahasiswa agar tampilannya lebih jelas. Ini adalah contoh yang baik tentang bagaimana cara menggunakan array of objects dalam Java untuk menyimpan dan menampilkan data.
+4. Kode program ini membuat sebuah array yang berisi tiga objek dari class Mahasiswa. Setiap objek diisi dengan informasi seperti NIM, nama, kelas, dan IPK. Setelah semua data diisi, program ini mencetak informasi masing-masing mahasiswa ke layar dengan format yang rapi. Jadi, bisa melihat detail dari setiap mahasiswa, seperti NIM, nama, kelas, dan IPK mereka, dengan pemisah garis di antara setiap mahasiswa agar tampilannya lebih jelas. Ini adalah contoh yang baik tentang bagaimana cara menggunakan array of objects dalam Java untuk menyimpan dan menampilkan data.
 
 5. Class Mahasiswa dan Mahasiswa Demo dipisahkan untuk membuat kode lebih teratur dan mudah dipahami. Class Mahasiswa berfungsi untuk mendefinisikan data dan perilaku yang berkaitan dengan mahasiswa, seperti atribut NIM, nama, kelas, dan IPK. Sementara itu, class Mahasiswa Demo digunakan untuk menjalankan program dan menguji class Mahasiswa.
 
@@ -43,7 +43,7 @@ Kode class MahasiswaDemoo
 
 ![Screenshot](img/Pertanyaan1(2).png)
 
-2. Jika mencoba menggunakan array myArrayOfMahasiswa tanpa menginisialisasinya terlebih dahulu, maka kode tersebut akan menyebabkan error karena tidak dapat mengakses elemen dari array yang belum dibuat. Jadi, jika kita menulis myArrayOfMahasiswa[0] tanpa mendeklarasikan dan menginisialisasi myArrayOfMahasiswa dengan ukuran tertentu, program akan memberikan error karena tidak ada objek yang dapat diakses di dalam array tersebut. Pastikan untuk selalu menginisialisasi array sebelum menggunakannya.
+2. Jika mencoba menggunakan array myArrayOfMahasiswa tanpa menginisialisasinya terlebih dahulu, maka kode tersebut akan menyebabkan error karena tidak dapat mengakses elemen dari array yang belum dibuat. Jadi, jika menulis myArrayOfMahasiswa[0] tanpa mendeklarasikan dan menginisialisasi myArrayOfMahasiswa dengan ukuran tertentu, program akan memberikan error karena tidak ada objek yang dapat diakses di dalam array tersebut. Pastikan untuk selalu menginisialisasi array sebelum menggunakannya.
 
 ## 3.4 Constructor Berparameter
 
@@ -53,7 +53,7 @@ Hasil Kode Pemrograman
 
 ### 3.4.3 Pertanyaan
 
-1. Ya, sebuah class dapat memiliki lebih dari satu constructor, yang dikenal sebagai constructor overloading. Ini memungkinkan untuk membuat objek dari class tersebut dengan cara yang berbeda, tergantung pada parameter yang kita berikan.
+1. Ya, sebuah class dapat memiliki lebih dari satu constructor, yang dikenal sebagai constructor overloading. Ini memungkinkan untuk membuat objek dari class tersebut dengan cara yang berbeda, tergantung pada parameter yang diberikan.
 
 2. Jawaban
 
