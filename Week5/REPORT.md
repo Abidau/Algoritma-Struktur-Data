@@ -91,11 +91,17 @@ Hasil Kode Program
 
 ## 4.5 Latihan Praktikum
 
-a) ![Screenshot](img/MencariNilaiUTSTertinggi.png)
+a) Nilau UTS tertinggi tertinggi menggunakan Divide and Conquer
 
-b) ![Screenshot](img/MencariNilaiUTSTerendah.png)
+![Screenshot](img/MencariNilaiUTSTertinggi.png)
 
-c) ![Screenshot](img/RataRataNilaiUAS.png)
+b) Nilai UTS terendah menggunakan Divide and Conquer
+
+![Screenshot](img/MencariNilaiUTSTerendah.png)
+
+c) Rata-rata nilai UAS dari semua mahasiswa menggunakan Brute Force
+
+![Screenshot](img/RataRataNilaiUAS.png)
 
 Main Code 
 
