@@ -3,7 +3,7 @@
 | NIM |  244107020212|
 | Nama |  Naufal Abid Aurizky |
 | Kelas | TI - 1H |
-| Repository | [link] () |
+| Repository | [link] (https://github.com/Abidau/Algoritma-Struktur-Data/tree/main/Week5) |
 
 # BRUTE FORCE DAN DIVIDE CONQUER
 
@@ -105,4 +105,5 @@ c) Rata-rata nilai UAS dari semua mahasiswa menggunakan Brute Force
 
 Main Code 
 
-![Screenshot](img)
+![Screenshot](img/MainNilai1.png)
+![Screenshot](img/MainNilai2.png)
