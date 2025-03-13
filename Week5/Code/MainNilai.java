@@ -56,13 +56,13 @@ public class MainNilai {
         }
 
         System.out.println("Mahasiswa dengan nilai UTS tertinggi");
-        System.out.println("\nNilai UTS tertinggi: " + maksimum);
+        System.out.println("Nilai UTS tertinggi: " + maksimum);
         System.out.println("Nama: " + nama[indeksMaks]);
         System.out.println("NIM: " + nim[indeksMaks]);
         System.out.println("Tahun Masuk: " + tahunMasuk[indeksMaks]);
 
         System.out.println("Mahasiswa dengan nilai UTS terendah");
-        System.out.println("\nNilai UTS terendah: " + minimum);
+        System.out.println("Nilai UTS terendah: " + minimum);
         System.out.println("Nama: " + nama[indeksMin]);
         System.out.println("NIM: " + nim[indeksMin]);
         System.out.println("Tahun Masuk: " + tahunMasuk[indeksMin]);
