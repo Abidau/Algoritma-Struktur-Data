@@ -56,7 +56,7 @@ Hasil Kode Program
 
 2. tahap combine terjadi saat hasil dua rekursi dikalikan sebelum dikembalikan, Contoh :
 ```
-return (pangkatDC(a, n/2) * pangkatDC(a, n/2));
+    return (pangkatDC(a, n/2) * pangkatDC(a, n/2));
 ```
 
 3. Metode pangkatBF(int a, int n) tetap relevan karena memberikan fleksibilitas dalam menghitung pangkat dari nilai lain tanpa mengandalkan atribut kelas. Namun, metode ini bisa dibuat tanpa parameter, cukup menggunakan atribut nilai dan pangkat dari objek. Contoh Metode tanpa parameter 
