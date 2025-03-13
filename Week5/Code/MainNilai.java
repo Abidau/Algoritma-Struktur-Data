@@ -38,6 +38,8 @@ public class MainNilai {
 
             System.out.print("Masukkan nilai UAS mahasiswa: ");
             nilaiUAS[i] = sc.nextInt();
+
+            System.out.println();
             sc.nextLine();
         }
 
@@ -55,18 +57,21 @@ public class MainNilai {
             }
         }
 
+        System.out.println();
         System.out.println("Mahasiswa dengan nilai UTS tertinggi");
         System.out.println("Nilai UTS tertinggi: " + maksimum);
         System.out.println("Nama: " + nama[indeksMaks]);
         System.out.println("NIM: " + nim[indeksMaks]);
         System.out.println("Tahun Masuk: " + tahunMasuk[indeksMaks]);
 
+        System.out.println();
         System.out.println("Mahasiswa dengan nilai UTS terendah");
         System.out.println("Nilai UTS terendah: " + minimum);
         System.out.println("Nama: " + nama[indeksMin]);
         System.out.println("NIM: " + nim[indeksMin]);
         System.out.println("Tahun Masuk: " + tahunMasuk[indeksMin]);
 
+        System.out.println();
         System.out.println("\nRata-rata nilai UAS: " + rataRata);
 
         sc.close();
