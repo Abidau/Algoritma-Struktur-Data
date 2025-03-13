@@ -45,10 +45,6 @@ public class MainNilai {
         int minimum = NilaiUTSTerendah.cariMinimumDC(nilaiUTS, 0, jumlah - 1);
         double rataRata = RataRataNilaiUAS.hitungRataRataBF(nilaiUTS);
 
-        // System.out.println("Nilai UTS tertinggi: " + maksimum);
-        // System.out.println("Nilai UTS terendah: " + minimum);
-        // System.out.println("Rata-rata nilai UAS: " + rataRata);
-
         int indeksMaks = -1, indeksMin = -1;
         for (int i = 0; i < jumlah; i++) {
             if (nilaiUTS[i] == maksimum) {
