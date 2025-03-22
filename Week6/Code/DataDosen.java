@@ -23,7 +23,6 @@ class DataDosen {
         for (int i = 0; i < idx - 1; i++) {
             for (int j = 0; j < idx - 1 - i; j++) {
                 if (dataDosen[j].usia > dataDosen[j + 1].usia) {
-                    // Swap
                     Dosen temp = dataDosen[j];
                     dataDosen[j] = dataDosen[j + 1];
                     dataDosen[j + 1] = temp;
