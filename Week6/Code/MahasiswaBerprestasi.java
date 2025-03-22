@@ -48,15 +48,29 @@ public class MahasiswaBerprestasi {
         }
     }
 
+    // void insertionSort() {
+    //     for (int i = 1; i < lisMhs.length; i++) {
+    //         Mahasiswa temp = lisMhs[i];
+    //         int j = i;
+    //         while (j > 0 && lisMhs[j-1].ipk > temp.ipk) {
+    //             lisMhs[j] = lisMhs[j-1];
+    //             j--;
+    //         }
+    //         lisMhs[j] = temp;
+    //     }
+    // }
+
+    //Tugas 5.4.3 Pertanyaan No.1
     void insertionSort() {
         for (int i = 1; i < lisMhs.length; i++) {
             Mahasiswa temp = lisMhs[i];
             int j = i;
-            while (j > 0 && lisMhs[j-1].ipk > temp.ipk) {
+            while (j > 0 && lisMhs[j-1].ipk < temp.ipk) { // Perubahan di sini
                 lisMhs[j] = lisMhs[j-1];
                 j--;
             }
             lisMhs[j] = temp;
         }
     }
+    
 }
