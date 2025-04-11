@@ -3,7 +3,7 @@
 | NIM |  244107020212|
 | Nama |  Naufal Abid Aurizky |
 | Kelas | TI - 1H |
-| Repository | [link] () |
+| Repository | [link] (https://github.com/Abidau/Algoritma-Struktur-Data/tree/main/Week7) |
 
 # SEARCHING
 
@@ -12,9 +12,9 @@
 
 Hasil Kode Program 
 
-![Screenshot]
+![Screenshot](img/P1.1.png)
 
-![Screenshot]
+![Screenshot](img/P1.2.png)
 
 ### 6.2.3. Pertanyaan
 
@@ -26,9 +26,9 @@ Hasil Kode Program
 
 Hasil Kode Program 
 
-![Screenshot]
+![Screenshot](img/P2.1.png)
 
-![Screenshot]
+![Screenshot](img/P2.2.png)
 
 ### 6.3.3. Pertanyaan
 
@@ -109,3 +109,9 @@ public class MahasiswaDemo1 {
     }
 }
 ```
+
+## 6.5. Latihan Praktikum
+
+Hasil Kode Program 
+
+![Screenshot](img/P3.1.png)
