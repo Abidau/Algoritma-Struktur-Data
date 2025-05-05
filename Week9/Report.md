@@ -3,7 +3,7 @@
 | NIM |  244107020212|
 | Nama |  Naufal Abid Aurizky |
 | Kelas | TI - 1H |
-| Repository | [link] () |
+| Repository | [link] (https://github.com/Abidau/Algoritma-Struktur-Data/tree/main/Week9) |
 
 # STACK
 
