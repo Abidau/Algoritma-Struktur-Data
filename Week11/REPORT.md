@@ -65,4 +65,10 @@ Hasil Kode Program
 
 ## 3. Tugas
 
-![Screenshot](img)
+![Screenshot](img/T1_1.png)
+
+![Screenshot](img/T1_2.png)
+
+![Screenshot](img/T1_3.png)
+
+![Screenshot](img/T1_4.png)
